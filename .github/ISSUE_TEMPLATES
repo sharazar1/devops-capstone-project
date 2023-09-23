@@ -1,0 +1,13 @@
+As a Customer 
+I need to be able to reset my password  
+So that I can access my account 
+      
+Details and Assumptions
+    Users should be able to request a password reset
+    Password reset links should expire after 2 Hours
+    Users should receive a confirmation email when password is reset
+Acceptance Criteria     
+    gherkin 
+    Given I am on the login page
+    When I enter my email and click "reset password"
+    Then I should receive a password reset link
